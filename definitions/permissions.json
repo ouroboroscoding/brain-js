@@ -1,0 +1,27 @@
+{
+	"__name__": "Brain_Permissions",
+
+	"_user": {
+		"__type__":"uuid"
+	},
+
+	"_created": {
+		"__type__":"timestamp",
+		"__optional__": true
+	},
+
+	"_updated": {
+		"__type__":"timestamp",
+		"__optional__": true
+	},
+
+	"rights": {
+		"__hash__": {
+			"__type__": "string",
+			"__regex__": "[a-z_]+"
+		},
+		"__type__": "uint",
+		"__minimum__": 1,
+		"__maximum__": 15
+	}
+}
