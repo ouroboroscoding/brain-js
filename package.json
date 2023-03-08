@@ -1,0 +1,31 @@
+{
+	"name": "@ouroboros/brain",
+	"version": "1.0.0",
+	"description": "Package to handle the brain service.",
+	"main": "src/index.js",
+	"types": "src/index.d.ts",
+	"scripts": {
+		"build": "tslint -p tsconfig.json && tsc",
+		"clean": "rm src/*.js src/*.d.ts",
+		"test": "echo \"Error: no test specified.\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ouroboroscoding/brain-js.git"
+	},
+	"keywords": [],
+	"author": "Chris Nasr <chris@ouroboroscoding.com>",
+	"license": "CUSTOM",
+	"bugs": {
+		"url": "https://github.com/ouroboroscoding/brain-js/issues"
+	},
+	"devDependencies": {
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^4.8.3"
+	},
+	"dependencies": {},
+	"peerDependencies": {
+		"@ouroboros/body": "^1.0.0"
+	}
+}
