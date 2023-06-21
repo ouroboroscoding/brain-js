@@ -24,7 +24,7 @@
 		"__type__":"uuid",
 		"__optional__": true,
 		"__ui__": {
-			"title": "Unique ID"
+			"__title__": "Unique ID"
 		}
 	},
 
@@ -48,7 +48,7 @@
 		"__type__":"string",
 		"__maximum__": 127,
 		"__ui__": {
-			"title": "E-Mail Address"
+			"__title__": "E-Mail Address"
 		}
 	},
 
@@ -57,9 +57,9 @@
 		"__regex__":"^[0-9a-fA-F]{72}$",
 		"__sql__": "char(72)",
 		"__ui__": {
-			"regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})",
-			"title": "Password",
-			"type": "password"
+			"__regex__": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})",
+			"__title__": "Password",
+			"__type__": "password"
 		}
 	},
 
@@ -68,9 +68,9 @@
 		"__regex__": "^[a-z]{2}-[A-Z]{2}$",
 		"__sql__": "char(5)",
 		"__ui__": {
-			"options": [["en-US", "U.S. English"]],
-			"title": "Language",
-			"type": "hidden"
+			"__options__": [["en-US", "U.S. English"]],
+			"__title__": "Language",
+			"__type__": "hidden"
 		}
 	},
 
@@ -79,7 +79,7 @@
 		"__minumum__": 1,
 		"__maximum__": 31,
 		"__ui__": {
-			"title": "Given Name"
+			"__title__": "Given Name"
 		}
 	},
 
@@ -88,7 +88,7 @@
 		"__minumum__": 2,
 		"__maximum__": 31,
 		"__ui__": {
-			"title": "Surname"
+			"__title__": "Surname"
 		}
 	},
 
@@ -97,7 +97,7 @@
 		"__maximum__": 31,
 		"__optional__": true,
 		"__ui__": {
-			"title": "Title (e.g. Dr., Mrs., Miss, Lord, etc)"
+			"__title__": "Title (e.g. Dr., Mrs., Miss, Lord, etc)"
 		}
 	},
 
@@ -106,7 +106,7 @@
 		"__maximum__": 31,
 		"__optional__": true,
 		"__ui__": {
-			"title": "Suffix (e.g. PhD, RN, Esq)"
+			"__title__": "Suffix (e.g. PhD, RN, Esq)"
 		}
 	},
 
@@ -115,8 +115,8 @@
 		"__regex__": "^(\\+[\\d \\(\\)-]{10,30}|[\\d \\(\\)-]{10,31})$",
 		"__optional__": true,
 		"__ui__": {
-			"title": "Phone Number",
-			"type": "phone_number"
+			"__title__": "Phone Number",
+			"__type__": "phone_number"
 		},
 		"__sql__": {
 			"type": "varchar(31)"
@@ -128,7 +128,7 @@
 		"__maximum__": 11,
 		"__optional__": true,
 		"__ui__": {
-			"title": "Extension"
+			"__title__": "Extension"
 		}
 	},
 
