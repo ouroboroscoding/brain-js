@@ -1,8 +1,9 @@
 {
 	"__name__": "Brain_Permissions",
 
-	"_user": {
-		"__type__":"uuid"
+	"_id": {
+		"__type__": "uuid",
+		"__optional__": true
 	},
 
 	"_created": {
@@ -13,6 +14,15 @@
 	"_updated": {
 		"__type__":"timestamp",
 		"__optional__": true
+	},
+
+	"user": {
+		"__type__":"uuid"
+	},
+
+	"portal": {
+		"__type__": "string",
+		"__maximum__": 16
 	},
 
 	"rights": {
