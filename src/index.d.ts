@@ -9,5 +9,12 @@
  */
 import { Service } from '@ouroboros/body';
 export * as errors from './errors';
+export declare const RIGHTS: {
+    CREATE: number;
+    READ: number;
+    UPDATE: number;
+    DELETE: number;
+    ALL: number;
+};
 declare const brain: Service;
 export default brain;
