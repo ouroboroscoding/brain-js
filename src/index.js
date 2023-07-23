@@ -11,6 +11,14 @@
 import { Service } from '@ouroboros/body';
 import * as errors_1 from './errors';
 export { errors_1 as errors };
+// Constants
+export const RIGHTS = {
+    CREATE: 1,
+    READ: 2,
+    UPDATE: 4,
+    DELETE: 8,
+    ALL: 15
+};
 // Create an instance of Service and export it as default
 const brain = new Service('brain');
 export default brain;
