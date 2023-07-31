@@ -16,5 +16,6 @@ export declare const RIGHTS: {
     DELETE: number;
     ALL: number;
 };
+export declare const RIGHTS_ALL_ID = "01234567-9abc-4def-a012-3456789abcde";
 declare const brain: Service;
 export default brain;
