@@ -1,6 +1,6 @@
 {
 	"name": "@ouroboros/brain",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Package to handle the brain service.",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
