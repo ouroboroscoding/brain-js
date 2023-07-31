@@ -19,6 +19,7 @@ export const RIGHTS = {
     DELETE: 8,
     ALL: 15
 };
+export const RIGHTS_ALL_ID = '01234567-9abc-4def-a012-3456789abcde';
 // Create an instance of Service and export it as default
 const brain = new Service('brain');
 export default brain;
