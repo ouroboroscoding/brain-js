@@ -11,3 +11,4 @@ export { errors as body } from '@ouroboros/body';
 export declare const SIGNIN_FAILED = 1200;
 export declare const PASSWORD_STRENGTH = 1201;
 export declare const BAD_PORTAL = 1202;
+export declare const BAD_OAUTH = 1203;
