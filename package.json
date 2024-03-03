@@ -1,6 +1,6 @@
 {
 	"name": "@ouroboros/brain",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"description": "Package to handle the brain service.",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
@@ -26,6 +26,6 @@
 		"typescript": "^4.8.3"
 	},
 	"peerDependencies": {
-		"@ouroboros/body": "^1.0.3"
+		"@ouroboros/body": "^1.0.4"
 	}
 }
