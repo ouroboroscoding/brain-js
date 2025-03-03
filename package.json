@@ -1,12 +1,12 @@
 {
 	"name": "@ouroboros/brain",
-	"version": "1.3.0",
+	"version": "2.2.0",
 	"description": "Package to handle the brain service.",
-	"main": "build/index.js",
-	"types": "build/index.d.ts",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
 	"scripts": {
 		"build": "tslint -p tsconfig.json && tsc",
-		"clean": "rm build/*",
+		"clean": "rm lib/*",
 		"for_local": "npm install; tslint -p tsconfig.json && tsc; rm -Rf node_modules",
 		"test": "echo \"Error: no test specified.\" && exit 1"
 	},
@@ -26,6 +26,6 @@
 		"typescript": "^4.8.3"
 	},
 	"peerDependencies": {
-		"@ouroboros/body": "^1.1.0"
+		"@ouroboros/body": "^1.1.2"
 	}
 }
