@@ -122,9 +122,9 @@ brain.update('permissions', {
   user: '18f85e33036d11f08878ea3e7aa7d94a',
   portal: 'my_app',
   rights: {
-    my_service_permission: { RIGHTS_ALL_ID: RIGHTS.ALL },
-    my_other_service_permission: { RIGHTS_ALL_ID: RIGHTS.READ }
-    my_other_other: { RIGHTS_ALL_ID: RIGHTS.CREATE | RIGHTS.DELETE }
+    my_service_permission: { [RIGHTS_ALL_ID]: RIGHTS.ALL },
+    my_other_service_permission: { [RIGHTS_ALL_ID]: RIGHTS.READ },
+    my_other_other: { [RIGHTS_ALL_ID]: RIGHTS.CREATE | RIGHTS.DELETE }
   }
 }).then(data => {}, error => {});
 ```
