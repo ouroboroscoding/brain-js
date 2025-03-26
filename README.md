@@ -4,6 +4,9 @@
 Shared javascript code for interacting with the brain service created by
 Ouroboros Coding Inc.
 
+See [Releases](https://github.com/ouroboroscoding/brain-js/blob/main/releases.md)
+for changes from release to release.
+
 ## Installation
 
 Install with npm
